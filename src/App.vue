@@ -7,6 +7,7 @@
       @add-item="handleAdd"
       @delete-item="handleDelete($event)"
     />
+    <router-view />
   </div>
 </template>
 
